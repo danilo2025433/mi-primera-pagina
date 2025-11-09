@@ -75,6 +75,30 @@ Prioridad	Operador(es)	Descripción
 11	not	Negación lógica
 12	and	Conjunción lógica
 REFLEXION: En etas tres semanas que llevamos en el curso de pensamiento algoritmico hemos aprendido como funciona el hardware, como funciona una memoria SSD, nos estamos empezando a adentrar en el mundo de la programacion. con esta herramienta git hub estamos aprendiendo como darle instrucciones a un computador atraves de los lenguajes de programacion. 
+# Ejemplo básico de uso de variables, valores y operadores en Python
+
+# Definimos variables con valores numéricos
+a = 10
+b = 5
+
+# Operaciones aritméticas
+suma = a + b
+resta = a - b
+multiplicacion = a * b
+division = a / b
+modulo = a % b
+potencia = a ** b
+
+# Mostramos los resultados
+print("Suma:", suma)
+print("Resta:", resta)
+print("Multiplicación:", multiplicacion)
+print("División:", division)
+print("Módulo:", modulo)
+print("Potencia:", potencia)
+REFERENCIAS IA
+
+
 
 
 
