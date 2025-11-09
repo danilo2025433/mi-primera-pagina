@@ -1,1 +1,1 @@
-# mi-primera-pagina PENSAMIENTO ALGORITMICO
+# mi-primera-pagina 
