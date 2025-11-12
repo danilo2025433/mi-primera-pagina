@@ -1,3 +1,12 @@
+
+
+
+
+
+
+
+
+
 mi primera pagina
 🔧 El hardware es el conjunto de componentes físicos de un sistema informático. Es todo lo que puedes ver y tocar en una computadora, teléfono, consola de videojuegos, etc.
 
@@ -97,6 +106,70 @@ print("División:", division)
 print("Módulo:", modulo)
 print("Potencia:", potencia)
 REFERENCIAS IA
+En programación, una variable es un espacio de almacenamiento con nombre que se utiliza para guardar datos que pueden cambiar durante la ejecución de un programa. Es como una caja etiquetada donde puedes guardar y recuperar información cuando la necesites.
+nombre = "Carlos"
+edad = 30
+activo = True
+En programación, un valor es el dato concreto que se almacena en una variable o se utiliza en una operación. Es el contenido real que representa algo en el programa.
+🔍 ¿Qué tipos de valores existen?
+Los valores pueden ser de distintos tipos de datos, dependiendo del lenguaje de programación:
+- Números enteros (int): como 5, -12, 1000
+- Números decimales (float o double): como 3.14, -0.5, 2.718
+- Cadenas de texto (string): como "Hola", "Carlos", "123"
+- Booleanos (bool): True o False (verdadero o falso)
+- Listas o arreglos (list, array): como [1, 2, 3] o ["a", "b", "c"]
+- Objetos: estructuras más complejas que agrupan varios valores bajo una misma entidad
+nombre = "Lucía"       # valor: "Lucía"
+edad = 28              # valor: 28
+activo = True          # valor: True
+En programación, los operadores son símbolos o palabras clave que permiten realizar operaciones sobre datos y variables. Son esenciales para construir la lógica de cualquier programa.
+ Tipos principales de operadores
+1. Operadores aritméticos
+Realizan cálculos matemáticos.
+|  |  | a = 5b = 2 | 
+| + |  | a + b7 | 
+| - |  | a - b3 | 
+| * |  | a * b10 | 
+| / |  | a / b2.5 | 
+| % |  | a % b1 | 
+| ** |  | a ** b25 | 
+. Operadores de comparación
+Comparan valores y devuelven True o False.
+|  |  | a = 5b = 2 | 
+| == |  | a == bFalse | 
+| != |  | a != bTrue | 
+| > |  | a > bTrue | 
+| < |  | a < bFalse | 
+| >= |  | a >= bTrue | 
+| <= |  | a <= bFalse | 
+
+. Operadores de comparación
+Comparan valores y devuelven True o False.
+|  |  | a = 5b = 2 | 
+| == |  | a == bFalse | 
+| != |  | a != bTrue | 
+| > |  | a > bTrue | 
+| < |  | a < bFalse | 
+| >= |  | a >= bTrue | 
+| <= |  | a <= bFalse | 
+ Variables
+base = 10         # valor: 10
+altura = 5        # valor: 5
+
+# Operador aritmético (*)
+area = base * altura
+
+# Mostrar el resultado
+
+
+
+
+
+
+
+
+
+
 
 
 
