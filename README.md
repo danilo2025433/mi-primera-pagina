@@ -105,7 +105,7 @@ print("Multiplicación:", multiplicacion)
 print("División:", division)
 print("Módulo:", modulo)
 print("Potencia:", potencia)
-REFERENCIAS IA
+
 En programación, una variable es un espacio de almacenamiento con nombre que se utiliza para guardar datos que pueden cambiar durante la ejecución de un programa. Es como una caja etiquetada donde puedes guardar y recuperar información cuando la necesites.
 nombre = "Carlos"
 edad = 30
@@ -160,7 +160,15 @@ altura = 5        # valor: 5
 area = base * altura
 
 # Mostrar el resultado
-
+La precedencia aritmética es el conjunto de reglas que determina el orden en que se deben realizar las operaciones matemáticas en una expresión.
+Cuando una expresión contiene múltiples operaciones (como suma, resta, multiplicación, división, potencias o paréntesis), el resultado puede variar dependiendo del orden en que se ejecuten. Para evitar ambigüedades, se establece una jerarquía que todos deben seguir.
+📌 Ejemplo práctico
+Supón que tienes la expresión:
+3+4\cdot 2
+Si haces la suma primero:
+(3+4)\cdot 2=7\cdot 2=14
+Pero según la precedencia correcta, primero va la multiplicación:
+3+(4\cdot 2)=3+8=11
 
 
 
