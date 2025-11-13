@@ -169,6 +169,9 @@ Si haces la suma primero:
 (3+4)\cdot 2=7\cdot 2=14
 Pero según la precedencia correcta, primero va la multiplicación:
 3+(4\cdot 2)=3+8=11
+resultado = (2 + 3) * 4  # Se suma primero, luego se multiplica
+Los paréntesis se usan para invocar funciones y pasarles argumentos.
+print("Hola mundo")  # 'print' es la función, "Hola mundo" es el argumento
 
 
 
