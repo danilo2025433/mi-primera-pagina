@@ -174,13 +174,124 @@ Los paréntesis se usan para invocar funciones y pasarles argumentos.
 print("Hola mundo")  # 'print' es la función, "Hola mundo" es el argumento
 
 
+BLOG/TAREA 2 UNIDAD 1. MD
+Tarea 2 Ejercicios unidad 1
+mi_tortuga.py
+import turtle
+
+t = turtle.Turtle()   # Crea una tortuga
+t.forward(100)        # Avanza 100 unidades
+turtle.done()         # Mantiene la ventana abierta
+
+Reto1: simula el comportamiento de la tortuga usando solo print() e input().
+
+Intenta recrear el movimiento de la tortuga únicamente con texto, usando funciones, print() y input() para pedir valores al usuario.
+# Programa que avanza "-"
+# Pedimos al usuario cuántas casillas quiere avanzar
+casillas = int(input("¿Cuántas casillas quieres avanzar? "))
+
+# Creamos una línea vacía con "_" para representar casillas
+tablero = ["_"] * (casillas + 1)
+
+# Recorremos cada casilla y dejamos un "-"
+for i in range(casillas + 1):
+    tablero[i] = "-"
+    
+# Mostramos el tablero completo en una sola línea
+print("".join(tablero))
+¿Cuántas casillas quieres avanzar? 5
+------
+
+   
+
+    
+        
+Reto 2: Tortuga bajando
+
+Crea el rastro de una tortuga moviéndose hacia abajo usando únicamente print() e input().
+posicion = 0      # posición inicial
+meta = 10         # número de casillas (puedes cambiarlo)
+
+while posicion < meta:
+    pasos = int(input("¿Cuántas posiciones quieres que baje la barra? "))
+    posicion += pasos
+    if posicion > meta:
+        posicion = meta
+    
+    # Dibujar todas las casillas desde arriba hasta la posición actual
+    for i in range(posicion):
+        print("|")
+¿Cuántas posiciones quieres que baje la barra? 2
+|
+|
+
+Reto 3: Girar y dibujar usando solo print() e input()
+
+Ahora la tortuga no solo avanza: también gira.
+Observa cómo lo hace la versión gráfica:
 
 
+import turtle
+t = turtle.Turtle()
+t.forward(100)
+t.right(90)          # Gira 90 grados a la derecha
+t.forward(100)
+turtle.done()
+Salida (versión gráfica): se dibuja una “L”.
 
+Reto 4: Encapsula los comportamientos anteriores usando funciones
 
+Reescribe los retos anteriores creando funciones que representen los movimientos de la tortuga solo con texto.
+# Movimiento con "-" hacia adelante y "|" hacia abajo
+# Solo usa print e input
 
+# Pedimos valores al usuario
+adelante = int(input("¿Cuántas casillas quieres avanzar hacia adelante? "))
+abajo = int(input("¿Cuántas casillas quieres avanzar hacia abajo? "))
 
+# Dibujamos el avance hacia adelante en la primera fila
+print("-" * adelante)
 
+# Dibujamos el avance hacia abajo con "|"
+for i in range(abajo):
+    print(" " * (adelante - 1) + "|")
+¿Cuántas casillas quieres avanzar hacia adelante? 5
+¿Cuántas casillas quieres avanzar hacia abajo? 2
+-----
+    |
+    |
+Reto 5: La tortuga baja las escalas
+
+Ajusta tus funciones para que la tortuga pueda bajar escalones.
+Cada escalón debe conservar la posición horizontal acumulada y dibujar correctamente tanto el tramo horizontal como el vertical.
+# Programa para dibujar una escalera personalizada
+
+# Pedimos al usuario cuántos escalones quiere
+escalones = int(input("¿Cuántos escalones quieres dibujar? "))
+
+# Pedimos el número de guiones (-) por escalón
+num_guiones = int(input("¿Cuántos '-' quieres por escalón? "))
+
+# Pedimos el número de barras (|) por escalón
+num_barras = int(input("¿Cuántos '|' quieres por escalón? "))
+
+# Dibujamos la escalera
+for i in range(escalones):
+    # Línea horizontal con guiones y al final las barras
+    print(" " * i + "-" * num_guiones + "|")
+    # Si hay más de una barra, se dibujan debajo alineadas
+    for j in range(num_barras - 1):
+        print(" " * i + " " * (num_guiones - 1) + "|")
+¿Cuántos escalones quieres dibujar? 3
+¿Cuántos '-' quieres por escalón? 5
+¿Cuántos '|' quieres por escalón? 2
+-----|
+    |
+ -----|
+     |
+  -----|
+      |
+Al ejecutar el programa pregunta cuantos escalones quiere dibujar luego cuantos pasos hacia adelante y cuantos pasos hacia abajo y finalmente ejecuta la funcion.
 
 
 
