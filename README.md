@@ -188,6 +188,7 @@ Reto1: simula el comportamiento de la tortuga usando solo print() e input().
 Intenta recrear el movimiento de la tortuga únicamente con texto, usando funciones, print() y input() para pedir valores al usuario.
 # Programa que avanza "-"
 # Pedimos al usuario cuántas casillas quiere avanzar
+"markdawn"
 casillas = int(input("¿Cuántas casillas quieres avanzar? "))
 
 # Creamos una línea vacía con "_" para representar casillas
@@ -199,6 +200,8 @@ for i in range(casillas + 1):
     
 # Mostramos el tablero completo en una sola línea
 print("".join(tablero))
+
+ejemplo en phyton
 ¿Cuántas casillas quieres avanzar? 5
 ------
 
@@ -209,6 +212,8 @@ print("".join(tablero))
 Reto 2: Tortuga bajando
 
 Crea el rastro de una tortuga moviéndose hacia abajo usando únicamente print() e input().
+"markdawn"
+
 posicion = 0      # posición inicial
 meta = 10         # número de casillas (puedes cambiarlo)
 
@@ -221,6 +226,8 @@ while posicion < meta:
     # Dibujar todas las casillas desde arriba hasta la posición actual
     for i in range(posicion):
         print("|")
+
+ejemplo en phyton        
 ¿Cuántas posiciones quieres que baje la barra? 2
 |
 |
@@ -246,6 +253,8 @@ Reescribe los retos anteriores creando funciones que representen los movimientos
 # Solo usa print e input
 
 # Pedimos valores al usuario
+"markdawn"
+
 adelante = int(input("¿Cuántas casillas quieres avanzar hacia adelante? "))
 abajo = int(input("¿Cuántas casillas quieres avanzar hacia abajo? "))
 
@@ -255,6 +264,8 @@ print("-" * adelante)
 # Dibujamos el avance hacia abajo con "|"
 for i in range(abajo):
     print(" " * (adelante - 1) + "|")
+
+    ejemplo en phyton
 ¿Cuántas casillas quieres avanzar hacia adelante? 5
 ¿Cuántas casillas quieres avanzar hacia abajo? 2
 -----
@@ -267,6 +278,8 @@ Cada escalón debe conservar la posición horizontal acumulada y dibujar correct
 # Programa para dibujar una escalera personalizada
 
 # Pedimos al usuario cuántos escalones quiere
+
+"markdawn"
 escalones = int(input("¿Cuántos escalones quieres dibujar? "))
 
 # Pedimos el número de guiones (-) por escalón
@@ -282,6 +295,8 @@ for i in range(escalones):
     # Si hay más de una barra, se dibujan debajo alineadas
     for j in range(num_barras - 1):
         print(" " * i + " " * (num_guiones - 1) + "|")
+
+ ejemplo en phyton       
 ¿Cuántos escalones quieres dibujar? 3
 ¿Cuántos '-' quieres por escalón? 5
 ¿Cuántos '|' quieres por escalón? 2
