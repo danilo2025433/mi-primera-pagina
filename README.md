@@ -171,11 +171,16 @@ Pero según la precedencia correcta, primero va la multiplicación:
 3+(4\cdot 2)=3+8=11
 resultado = (2 + 3) * 4  # Se suma primero, luego se multiplica
 Los paréntesis se usan para invocar funciones y pasarles argumentos.
-print("Hola mundo")  # 'print' es la función, "Hola mundo" es el argumento
+print("Hola mundo")  # 'print' es la función, "Hola mundo" es el argumen
+
+
+
 
 
 BLOG/TAREA 2 UNIDAD 1. MD
 Tarea 2 Ejercicios unidad 1
+
+
 mi_tortuga.py
 import turtle
 
