@@ -193,7 +193,7 @@ Reto1: simula el comportamiento de la tortuga usando solo print() e input().
 Intenta recrear el movimiento de la tortuga únicamente con texto, usando funciones, print() y input() para pedir valores al usuario.
 # Programa que avanza "-"
 # Pedimos al usuario cuántas casillas quiere avanzar
-"markdawn"
+'''phyton
 casillas = int(input("¿Cuántas casillas quieres avanzar? "))
 
 # Creamos una línea vacía con "_" para representar casillas
@@ -202,7 +202,7 @@ tablero = ["_"] * (casillas + 1)
 # Recorremos cada casilla y dejamos un "-"
 for i in range(casillas + 1):
     tablero[i] = "-"
-    
+'''    
 # Mostramos el tablero completo en una sola línea
 print("".join(tablero))
 
