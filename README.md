@@ -278,7 +278,9 @@ for i in range(abajo):
     ´´´
 
     ejemplo en phyton
-    <img width="1115" height="628" alt="Captura de pantalla 2025-12-14 121334" src="https://github.com/user-attachments/assets/9ce106d1-c706-4186-be62-5790097e6381" />
+    <img width="1115" height="628" alt="Captura de pantalla 2025-12-14 123513" src="https://github.com/user-attachments/assets/6e29b9df-38f9-4480-a813-0f70ae826c80" />
+
+    
 
     
 
