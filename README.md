@@ -187,6 +187,7 @@ import turtle
 t = turtle.Turtle()   # Crea una tortuga
 t.forward(100)        # Avanza 100 unidades
 turtle.done()         # Mantiene la ventana abierta
+En esta entrada de mi blog voy a crear un programa que le pregunta al usuario cuantas casillas quiere avanzar y utiliza un guion para dibujar las posiciones que el usuario le indica que avanze hacia adelante.
 
 Reto1: simula el comportamiento de la tortuga usando solo print() e input().
 
@@ -217,6 +218,7 @@ ejemplo en phyton
     
         
 Reto 2: Tortuga bajando
+En esta entrada de blog voy a crear un programa que le pregunta al usuario cuantas posiciones quiere que baje la barra y dibuja el avanze de la barra hacia abajo.
 
 Crea el rastro de una tortuga moviéndose hacia abajo usando únicamente print() e input().
 '''phyton
@@ -258,6 +260,7 @@ turtle.done()
 Salida (versión gráfica): se dibuja una “L”.
 
 Reto 4: Encapsula los comportamientos anteriores usando funciones
+En este blog voy a crear un programa que le piden al usuario cuantas casillas quiere avanzar hacia adelante y tambien cuantas casillas hacia abajo, y utiliza guiones para representar el avanze hacia adelante y barras para representar el avanze hacia abajo.
 
 Reescribe los retos anteriores creando funciones que representen los movimientos de la tortuga solo con texto.
 # Movimiento con "-" hacia adelante y "|" hacia abajo
@@ -292,6 +295,7 @@ for i in range(abajo):
     
    
 Reto 5: La tortuga baja las escalas
+En este blog voy a crear un programa dibuja unas escalas.primero le pide al usuario cuantas escalas quiere dibujar, despues pide cuantos guiones quiere por escalon para dibujar el avanze hacia adelante, despues pide cuantas barras quiere para dibujar el avanze hacia abajo y finalmente dibuja la funcion.
 
 Ajusta tus funciones para que la tortuga pueda bajar escalones.
 Cada escalón debe conservar la posición horizontal acumulada y dibujar correctamente tanto el tramo horizontal como el vertical.
@@ -322,7 +326,15 @@ for i in range(escalones):
 
  
      
-Al ejecutar el programa pregunta cuantos escalones quiere dibujar luego cuantos pasos hacia adelante y cuantos pasos hacia abajo y finalmente ejecuta la funcion.
+#Tarea Práctica: Evolución de Mini-Turtle
+#Versión Funcional
+#Este es el enlace al repositorio de la tarea 1  Versión Funcional.
+https://github.com/danilo2025433/repositorio-1-/edit/main/README.md
+
+#Este es el enlace para la tarea 2
+https://github.com/danilo2025433/repositorio-2/edit/main/README.md
+
+
 
 
 
