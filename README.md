@@ -329,7 +329,7 @@ for i in range(escalones):
 #Tarea Práctica: Evolución de Mini-Turtle
 #Versión Funcional
 #Este es el enlace al repositorio de la tarea 1  Versión Funcional.
-https://github.com/danilo2025433/repositorio-1-/edit/main/README.md
+https://github.com/danilo2025433/repositorio-1-/blob/main/README.md
 
 #Este es el enlace para la tarea 2
 https://github.com/danilo2025433/repositorio-2/edit/main/README.md
