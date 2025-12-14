@@ -207,8 +207,7 @@ for i in range(casillas + 1):
 print("".join(tablero))
 ''''
 ejemplo en phyton
-¿Cuántas casillas quieres avanzar? 5
-------
+
 <img width="1115" height="628" alt="Captura de pantalla 2025-12-13 191927" src="https://github.com/user-attachments/assets/c324e2c3-7262-430f-9a17-61e806f1c97b" />
 
 
@@ -241,9 +240,8 @@ ejemplo en phyton
 <img width="1115" height="628" alt="Captura de pantalla 2025-12-14 114304" src="https://github.com/user-attachments/assets/7cdc55d4-418c-43ca-a65e-3e614ac7f592" />
 
 
-¿Cuántas posiciones quieres que baje la barra? 2
-|
-|
+
+
 
 Reto 3: Girar y dibujar usando solo print() e input()
 
@@ -289,11 +287,8 @@ for i in range(abajo):
     
 
 
-¿Cuántas casillas quieres avanzar hacia adelante? 5
-¿Cuántas casillas quieres avanzar hacia abajo? 2
------
-    |
-    |
+    
+   
 Reto 5: La tortuga baja las escalas
 
 Ajusta tus funciones para que la tortuga pueda bajar escalones.
@@ -324,15 +319,7 @@ for i in range(escalones):
  <img width="1115" height="628" alt="Captura de pantalla 2025-12-14 114841" src="https://github.com/user-attachments/assets/9ce79235-a20f-44c0-94a9-d1b483be1bfc" />
 
  
-¿Cuántos escalones quieres dibujar? 3
-¿Cuántos '-' quieres por escalón? 5
-¿Cuántos '|' quieres por escalón? 2
------|
-    |
- -----|
-     |
-  -----|
-      |
+     
 Al ejecutar el programa pregunta cuantos escalones quiere dibujar luego cuantos pasos hacia adelante y cuantos pasos hacia abajo y finalmente ejecuta la funcion.
 
 
