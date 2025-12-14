@@ -238,7 +238,8 @@ while posicion < meta:
 
 ejemplo en phyton   
 
-<img width="1115" height="628" alt="Captura de pantalla 2025-12-14 114304" src="https://github.com/user-attachments/assets/c5319b73-e3ad-4627-805a-de237fe6174d" />
+<img width="1115" height="628" alt="Captura de pantalla 2025-12-14 114304" src="https://github.com/user-attachments/assets/7cdc55d4-418c-43ca-a65e-3e614ac7f592" />
+
 
 ¿Cuántas posiciones quieres que baje la barra? 2
 |
