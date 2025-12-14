@@ -209,6 +209,9 @@ print("".join(tablero))
 ejemplo en phyton
 ¿Cuántas casillas quieres avanzar? 5
 ------
+<img width="1115" height="628" alt="Captura de pantalla 2025-12-13 191927" src="https://github.com/user-attachments/assets/c324e2c3-7262-430f-9a17-61e806f1c97b" />
+
+
 
    
 
@@ -217,7 +220,7 @@ ejemplo en phyton
 Reto 2: Tortuga bajando
 
 Crea el rastro de una tortuga moviéndose hacia abajo usando únicamente print() e input().
-"markdawn"
+'''phyton
 
 posicion = 0      # posición inicial
 meta = 10         # número de casillas (puedes cambiarlo)
@@ -231,8 +234,12 @@ while posicion < meta:
     # Dibujar todas las casillas desde arriba hasta la posición actual
     for i in range(posicion):
         print("|")
+        '''
 
-ejemplo en phyton        
+ejemplo en phyton   
+
+<img width="1115" height="628" alt="Captura de pantalla 2025-12-14 114304" src="https://github.com/user-attachments/assets/c5319b73-e3ad-4627-805a-de237fe6174d" />
+
 ¿Cuántas posiciones quieres que baje la barra? 2
 |
 |
@@ -258,7 +265,7 @@ Reescribe los retos anteriores creando funciones que representen los movimientos
 # Solo usa print e input
 
 # Pedimos valores al usuario
-"markdawn"
+´´´phyton
 
 adelante = int(input("¿Cuántas casillas quieres avanzar hacia adelante? "))
 abajo = int(input("¿Cuántas casillas quieres avanzar hacia abajo? "))
@@ -269,8 +276,11 @@ print("-" * adelante)
 # Dibujamos el avance hacia abajo con "|"
 for i in range(abajo):
     print(" " * (adelante - 1) + "|")
+    ´´´
 
     ejemplo en phyton
+    <img width="1115" height="628" alt="Captura de pantalla 2025-12-14 114628" src="https://github.com/user-attachments/assets/f417ecec-dca6-49e9-a0c1-a867332dc1e9" />
+
 ¿Cuántas casillas quieres avanzar hacia adelante? 5
 ¿Cuántas casillas quieres avanzar hacia abajo? 2
 -----
@@ -284,7 +294,7 @@ Cada escalón debe conservar la posición horizontal acumulada y dibujar correct
 
 # Pedimos al usuario cuántos escalones quiere
 
-"markdawn"
+´´´phyton
 escalones = int(input("¿Cuántos escalones quieres dibujar? "))
 
 # Pedimos el número de guiones (-) por escalón
@@ -300,8 +310,12 @@ for i in range(escalones):
     # Si hay más de una barra, se dibujan debajo alineadas
     for j in range(num_barras - 1):
         print(" " * i + " " * (num_guiones - 1) + "|")
+        ´´´
 
- ejemplo en phyton       
+ ejemplo en phyton 
+ <img width="1115" height="628" alt="Captura de pantalla 2025-12-14 114841" src="https://github.com/user-attachments/assets/9ce79235-a20f-44c0-94a9-d1b483be1bfc" />
+
+ 
 ¿Cuántos escalones quieres dibujar? 3
 ¿Cuántos '-' quieres por escalón? 5
 ¿Cuántos '|' quieres por escalón? 2
