@@ -280,7 +280,8 @@ for i in range(abajo):
     ´´´
 
     ejemplo en phyton
-    <img width="1115" height="628" alt="Captura de pantalla 2025-12-14 114628" src="https://github.com/user-attachments/assets/f417ecec-dca6-49e9-a0c1-a867332dc1e9" />
+    <img width="1115" height="628" alt="Captura de pantalla 2025-12-14 114628" src="https://github.com/user-attachments/assets/5530fd7a-3d32-4aa2-a298-73fd98d71c8a" />
+
 
 ¿Cuántas casillas quieres avanzar hacia adelante? 5
 ¿Cuántas casillas quieres avanzar hacia abajo? 2
